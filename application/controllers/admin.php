@@ -45,6 +45,7 @@
           		}
           		else
           		{
+                         echo "failed";
           			$this->session->set_flashdata('feedback','failed to insert');
           				$this->session->set_flashdata('feedback_class','alert-danger');
           		}
